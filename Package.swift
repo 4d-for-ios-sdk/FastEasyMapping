@@ -16,17 +16,7 @@ let package = Package(
             path: "FastEasyMapping/Source",
             exclude: [],
             sources: nil, publicHeadersPath: nil, cSettings: [
-                .headerSearchPath("../"),
-                .headerSearchPath("Assignment Policy"),
-                .headerSearchPath("Cache"),
-                .headerSearchPath("Utility"),
-                .headerSearchPath("Deserializer"),
-                .headerSearchPath("Private/Utility"),
-                .headerSearchPath("Private/Extensions/Collection"),
-                .headerSearchPath("Private/Extensions/Foundation"),
-                .headerSearchPath("Store"),
-                .headerSearchPath("Mapping"),
-                .headerSearchPath("Serializer")
+                .headerSearchPath("include")
             ],
             cxxSettings: nil, swiftSettings: nil, linkerSettings: nil)
     ]

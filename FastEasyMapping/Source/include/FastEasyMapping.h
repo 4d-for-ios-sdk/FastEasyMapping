@@ -8,17 +8,17 @@ FOUNDATION_EXPORT double FastEasyMappingVersionNumber;
 //! Project version string for FastEasyMapping.
 FOUNDATION_EXPORT const unsigned char FastEasyMappingVersionString[];
 
-#import <../Assignment Policy/FEMRelationshipAssignmentContext.h>
-#import <../Assignment Policy/FEMAssignmentPolicy.h>
-#import <../Mapping/FEMProperty.h>
-#import <../Mapping/FEMAttribute.h>
-#import <../Mapping/FEMRelationship.h>
-#import <../Store/FEMObjectStore.h>
-#import <../Store/FEMManagedObjectStore.h>
-#import <../Cache/FEMObjectCache.h>
-#import <../Mapping/FEMMapping.h>
-#import <../Deserializer/FEMDeserializer.h>
-#import <../Serializer/FEMSerializer.h>
-#import <../Utility/FEMTypes.h>
-#import <../Utility/FEMTypeIntrospection.h>
-#import <../Utility/FEMRepresentationUtility.h>
+#import <FEMRelationshipAssignmentContext.h>
+#import <FEMAssignmentPolicy.h>
+#import <FEMProperty.h>
+#import <FEMAttribute.h>
+#import <FEMRelationship.h>
+#import <FEMObjectStore.h>
+#import <FEMManagedObjectStore.h>
+#import <FEMObjectCache.h>
+#import <FEMMapping.h>
+#import <FEMDeserializer.h>
+#import <FEMSerializer.h>
+#import <FEMTypes.h>
+#import <FEMTypeIntrospection.h>
+#import <FEMRepresentationUtility.h>
